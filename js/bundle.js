@@ -102,7 +102,7 @@
         },
         {
             id: 7, name: "Home Row Words", description: "All home row, words",
-            keys: HOME, tileSpeed: 70, spawnInterval: 0.85,
+            keys: HOME, tileSpeed: 38, spawnInterval: 1.2,
             maxActiveTiles: 10, minWordLength: 2, maxWordLength: 3,
             totalTiles: 28, wordList: wordsForKeys(HOME, 3)
         },
@@ -128,7 +128,7 @@
         },
         {
             id: 11, name: "Top Mid Words", description: "R, U, E, I + home, words",
-            keys: HOME.concat(['r', 'u', 'e', 'i']), tileSpeed: 72, spawnInterval: 0.85,
+            keys: HOME.concat(['r', 'u', 'e', 'i']), tileSpeed: 38, spawnInterval: 1.2,
             maxActiveTiles: 10, minWordLength: 2, maxWordLength: 3,
             totalTiles: 28, wordList: wordsForKeys(HOME.concat(['r', 'u', 'e', 'i']), 3)
         },
@@ -158,7 +158,7 @@
         },
         {
             id: 16, name: "Top Row Words", description: "All top + home, words",
-            keys: TOP, tileSpeed: 72, spawnInterval: 0.85,
+            keys: TOP, tileSpeed: 38, spawnInterval: 1.2,
             maxActiveTiles: 10, minWordLength: 2, maxWordLength: 5,
             totalTiles: 28, wordList: wordsForKeys(TOP, 5)
         },
@@ -184,7 +184,7 @@
         },
         {
             id: 20, name: "Bottom Mid Words", description: "V, N, B, M + above, words",
-            keys: TOP.concat(['v', 'n', 'b', 'm']), tileSpeed: 72, spawnInterval: 0.85,
+            keys: TOP.concat(['v', 'n', 'b', 'm']), tileSpeed: 38, spawnInterval: 1.2,
             maxActiveTiles: 10, minWordLength: 2, maxWordLength: 4,
             totalTiles: 28, wordList: wordsForKeys(TOP.concat(['v', 'n', 'b', 'm']), 4)
         },
@@ -214,7 +214,7 @@
         },
         {
             id: 25, name: "Bottom Row Words", description: "All keys, words",
-            keys: ALL, tileSpeed: 72, spawnInterval: 0.85,
+            keys: ALL, tileSpeed: 38, spawnInterval: 1.2,
             maxActiveTiles: 10, minWordLength: 2, maxWordLength: 5,
             totalTiles: 28, wordList: wordsForKeys(ALL, 5)
         },
@@ -222,7 +222,7 @@
         // ===== FINAL =====
         {
             id: 26, name: "Full Keyboard", description: "All keys review, words",
-            keys: ALL, tileSpeed: 78, spawnInterval: 0.75,
+            keys: ALL, tileSpeed: 42, spawnInterval: 1.0,
             maxActiveTiles: 10, minWordLength: 3, maxWordLength: 5,
             totalTiles: 35, wordList: wordsForKeys(ALL, 5)
         },
